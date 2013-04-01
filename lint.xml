@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ContentDescription">
+        <ignore path="res/layout/actionview_colors.xml" />
+        <ignore path="res/layout/list_item_color.xml" />
+    </issue>
+</lint>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/bg_color"
+        android:actionLayout="@layout/actionview_colors"
+        android:icon="@drawable/ic_bg"
+        android:showAsAction="always|collapseActionView"
+        android:title="背景">
+    </item>
+    <item
+        android:id="@+id/share"
+        android:icon="@android:drawable/ic_menu_share"
+        android:showAsAction="ifRoom"
+        android:title="共有">
+    </item>
+    <item
+        android:id="@+id/clear"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:showAsAction="ifRoom"
+        android:title="消去">
+    </item>
+
+</menu>
